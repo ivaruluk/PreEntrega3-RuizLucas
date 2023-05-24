@@ -46,33 +46,42 @@
     <!-- Termina el header -->
 
     <!-- Empieza el main -->
-    <main class="textoCentrado">
+    <main class="container mt-3">
+      <h1 class="textoCentrado">Contáctate con nosotros.</h1>
       <section>
-        <h1>CONTACTO</h1>
-        <form action="envio.php">
-          <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="nombre y apellido">
+        <form class="row g-3 mt-4 rounded formularioContacto">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="email@email.com">
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="inputPassword4">
           </div>
-          <div>
-            <label for="tel">Tel</label>
-            <input type="tel" id="tel" placeholder="numero sin 0 ni 15">
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Telefono/Celular</label>
+            <input type="text" class="form-control" id="inputAddress">
           </div>
-          <div>
-              <label for="comentario">CONSULTAS - DUDAS - SUGERENCIAS</label>
-              <br>
-              <textarea name="" id="cometario" cols="30" rows="10"></textarea>
+          <div class="col-md-12">
+            <label for="inputState" class="form-label">Genero</label>
+            <select id="inputState" class="form-select">
+              <option selected>Elegir...</option>
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>Otrx</option>
+            </select>
           </div>
-          <div>
-            <input type="reset" value="Cancelar">
-            <input type="submit" value="Enviar">
+          <div class="col-md-12">
+            <label for="inputCity" class="form-label">CONSULTAS-DUDAS-SUGERENCIAS</label>
+            <input type="textarea" class="form-control areaContacto" id="inputCity">
+          </div>
+          <div class="col-12 pb-2 ps-3">
+            <a href="pages/error404.html">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </a>
           </div>
         </form>
-          <div>
+          <div class="textoCentrado w-100 pt-4">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.5071441877217!2d-67.4804557847724!3d-45.86116234332633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454503248d9c9%3A0x64786b98171c841d!2sSan%20Mart%C3%ADn%20300%2C%20U9000AIF%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses!2sar!4v1679451747980!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </section>
