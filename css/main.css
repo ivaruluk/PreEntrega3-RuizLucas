@@ -121,6 +121,21 @@ main section div img{
     width: 100%;
 }
 
+.btnBurger{
+    background-color: rgb(0, 0, 0);
+    color: #ded0f3;
+}
+
+.imagenCarousel{
+    height: 600px;
+    object-fit: contain;
+}
+
+.descripcionCarousel{
+    color: black;
+    font-weight: 400;
+}
+
 .elHeader{
     grid-area: dos;
 }
