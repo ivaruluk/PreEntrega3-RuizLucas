@@ -126,14 +126,15 @@ main section div img{
     color: #ded0f3;
 }
 
-.imagenCarousel{
-    height: 600px;
-    object-fit: contain;
+.escalaCarousel{
+    width: 60%;
 }
 
 .descripcionCarousel{
-    color: black;
-    font-weight: 400;
+    background-color: rgb(243, 248, 252);
+    color: rgb(3, 3, 3);
+    font-size: xx-large;
+    padding: 0px 3px;
 }
 
 .elHeader{
