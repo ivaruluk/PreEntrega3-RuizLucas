@@ -13,6 +13,26 @@ body{
     background-attachment: fixed;
 }
 
+/* Codigo en comun */
+
+.botonera {
+    background-color: rgb(20, 152, 240);
+}
+
+
+/* Index html */
+
+/* MenuHtml */
+
+/* LocalesHtml */
+
+/* PromosHtml */
+
+/* ContactoHtml */
+
+/* Error404Html */
+
+
 
 .sucursalesPadre{
     display: flex;
@@ -137,7 +157,7 @@ header img{
 
 .fondoBlanco{
     background-color: rgb(240, 238, 238);
-    margin: 10px 150px;
+    margin: 5px;
 }
 
 h1{
@@ -196,8 +216,4 @@ nav img{
         display: flex;
         flex-direction: column;
     }
-}
-
-.botonera {
-    background-color: rgb(20, 152, 240);
 }
