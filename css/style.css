@@ -58,36 +58,31 @@ h2 {
 .unaLista {
   padding-top: 10px;
 }
-
 .unaLista a {
   text-decoration: none;
 }
-
-.unaLista ul li {
+.unaLista a ul li {
   list-style: none;
   color: black;
 }
 
-nav img {
+nav div a img {
   width: 190px;
 }
 
-nav ul {
+nav div div ul {
   list-style: none;
   display: flex;
 }
-
-nav ul li {
+nav div div ul li {
   display: flex;
   margin-top: 5px;
   margin-right: 10px;
 }
-
-nav ul li a {
+nav div div ul li a {
   font-size: 2rem;
   color: rgb(40, 16, 129);
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -110,7 +105,6 @@ nav ul li a {
   border-radius: 5px;
 }
 
-/* Index html */
 .escalaCarousel {
   width: 40%;
 }
@@ -122,7 +116,6 @@ nav ul li a {
   padding: 0px 3px;
 }
 
-/* LocalesHtml */
 .sucursalesPadre {
   display: flex;
   justify-content: space-around;
@@ -138,7 +131,6 @@ nav ul li a {
   object-fit: cover;
 }
 
-/* ContactoHtml */
 .formularioContacto {
   background-color: rgb(137, 59, 211);
 }
@@ -151,7 +143,6 @@ nav ul li a {
   height: 100px;
 }
 
-/* Error404Html */
 .flexError {
   display: flex;
   justify-content: center;
