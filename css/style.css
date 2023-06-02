@@ -13,7 +13,8 @@ body {
 
 /* Codigo en comun */
 .botonera {
-  background-color: rgb(20, 152, 240);
+  background-color: rgb(0, 143, 239);
+  font-size: 1.2em;
 }
 
 .fondoBlanco {
@@ -80,10 +81,13 @@ nav div div ul li {
   margin-right: 10px;
 }
 nav div div ul li a {
-  font-size: 3rem;
-  color: rgb(40, 16, 129);
   text-decoration: none;
-  font-weight: 400;
+}
+nav div div ul li a:hover {
+  font-weight: bold;
+  background-color: rgb(5, 194, 204);
+  border-radius: 8px;
+  transition: 1s;
 }
 
 .textoCentrado {
@@ -98,6 +102,7 @@ nav div div ul li a {
 .cartas {
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .logoBurguer {
@@ -107,6 +112,7 @@ nav div div ul li a {
 
 .escalaCarousel {
   width: 40%;
+  padding: 15px 0px;
 }
 
 .descripcionCarousel {
