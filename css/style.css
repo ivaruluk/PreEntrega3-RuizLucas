@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,13 +19,10 @@ body {
 }
 
 .fondoBlanco {
-  background-color: rgb(240, 238, 238);
+  background-color: white;
   margin: 5px;
 }
 
-header {
-  background-color: red;
-}
 header img {
   width: 100%;
 }
@@ -37,12 +35,12 @@ h1 {
 
 h2 {
   font-weight: 700;
-  color: rgb(16, 129, 22);
+  color: rgb(96, 96, 96);
 }
 
 .btnBurger {
   background-color: rgb(4, 60, 105);
-  color: #ded0f3;
+  color: white;
   border: none;
 }
 
@@ -116,10 +114,16 @@ nav div div ul li a:hover {
 }
 
 .descripcionCarousel {
-  background-color: rgb(243, 248, 252);
-  color: rgb(3, 3, 3);
-  font-size: xx-large;
+  background-color: white;
+  color: black;
+  font-size: 1.8em;
+  font-weight: 700;
   padding: 0px 3px;
+}
+
+.tituloCartas {
+  font-weight: 700;
+  color: rgb(129, 16, 86);
 }
 
 .sucursalesPadre {
@@ -142,7 +146,7 @@ nav div div ul li a:hover {
 }
 
 .formularioContacto label {
-  color: antiquewhite;
+  color: white;
 }
 
 .areaContacto {
