@@ -86,11 +86,11 @@ nav{
                     margin-right: 10px;
                     a{ 
                         text-decoration: none;
+                        border-radius: 8px;
                         &:hover{
                             font-weight: bold;
                             background-color: $hoverBotonera;
-                            border-radius: 8px;
-                            transition: 1s;
+                            transition: 0.7s;
                         }
                     }
                 }
@@ -170,6 +170,21 @@ nav{
     align-items: center;
     margin-top: 6em;
 }
+
+.centrarBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces{
+    font-weight: $bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: $textLg;
+    color: $negro;
+    width: 5em;
+}
+
 
 /* media */
 

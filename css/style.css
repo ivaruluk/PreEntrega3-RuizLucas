@@ -80,12 +80,12 @@ nav div div ul li {
 }
 nav div div ul li a {
   text-decoration: none;
+  border-radius: 8px;
 }
 nav div div ul li a:hover {
   font-weight: bold;
   background-color: rgb(5, 194, 204);
-  border-radius: 8px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .textoCentrado {
@@ -158,6 +158,20 @@ nav div div ul li a:hover {
   justify-content: center;
   align-items: center;
   margin-top: 6em;
+}
+
+.centrarBoton {
+  display: flex;
+  justify-content: center;
+}
+
+.enlaces {
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.8em;
+  color: black;
+  width: 5em;
 }
 
 /* media */
