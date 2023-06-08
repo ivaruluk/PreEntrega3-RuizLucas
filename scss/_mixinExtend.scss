@@ -1,0 +1,26 @@
+// mixin
+
+
+// extend
+
+.locales{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid;
+}
+
+.localesRojo{
+    @extend .locales;
+    color: red;
+}
+
+.localesAzul{
+    @extend .locales;
+    color: blue;
+}
+
+.localesVerde{
+    @extend .locales;
+    color: green;
+}
