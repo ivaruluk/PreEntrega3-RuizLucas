@@ -1,5 +1,19 @@
 // mixin
 
+@mixin letras($weight, $size, $color){
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+}
+
+.descripcionCartas{
+    @include letras(400, 1.1em, rgb(140, 101, 3));
+}
+
+.horario{
+    @include letras(700, 1.2em, black);
+}
+
 
 // extend
 
